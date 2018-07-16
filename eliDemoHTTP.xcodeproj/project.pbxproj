@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091210C820FD228C004E8894 /* FilmTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091210C720FD228C004E8894 /* FilmTableVC.swift */; };
 		09F3EE9520F802680029BF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3EE9420F802680029BF71 /* AppDelegate.swift */; };
-		09F3EE9720F802680029BF71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3EE9620F802680029BF71 /* ViewController.swift */; };
+		09F3EE9720F802680029BF71 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3EE9620F802680029BF71 /* PeopleViewController.swift */; };
 		09F3EE9A20F802680029BF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F3EE9820F802680029BF71 /* Main.storyboard */; };
 		09F3EE9D20F802680029BF71 /* eliDemoHTTP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09F3EE9B20F802680029BF71 /* eliDemoHTTP.xcdatamodeld */; };
 		09F3EE9F20F802690029BF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F3EE9E20F802690029BF71 /* Assets.xcassets */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091210C720FD228C004E8894 /* FilmTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableVC.swift; sourceTree = "<group>"; };
 		09F3EE9120F802680029BF71 /* eliDemoHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eliDemoHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F3EE9420F802680029BF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09F3EE9620F802680029BF71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09F3EE9620F802680029BF71 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		09F3EE9920F802680029BF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09F3EE9C20F802680029BF71 /* eliDemoHTTP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eliDemoHTTP.xcdatamodel; sourceTree = "<group>"; };
 		09F3EE9E20F802690029BF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				09F3EE9420F802680029BF71 /* AppDelegate.swift */,
-				09F3EE9620F802680029BF71 /* ViewController.swift */,
+				09F3EE9620F802680029BF71 /* PeopleViewController.swift */,
+				091210C720FD228C004E8894 /* FilmTableVC.swift */,
 				09F3EE9820F802680029BF71 /* Main.storyboard */,
 				09F3EE9E20F802690029BF71 /* Assets.xcassets */,
 				09F3EEA020F802690029BF71 /* LaunchScreen.storyboard */,
@@ -260,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F3EE9D20F802680029BF71 /* eliDemoHTTP.xcdatamodeld in Sources */,
-				09F3EE9720F802680029BF71 /* ViewController.swift in Sources */,
+				091210C820FD228C004E8894 /* FilmTableVC.swift in Sources */,
+				09F3EE9720F802680029BF71 /* PeopleViewController.swift in Sources */,
 				09F3EE9520F802680029BF71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,7 @@ class PeopleViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getData(from: "http://swapi.co/api/people/")
+        print(people)
     }
 
     
